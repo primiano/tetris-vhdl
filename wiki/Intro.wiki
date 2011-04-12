@@ -2,9 +2,11 @@
 
 = Introduction =
 
-SVN Access
+Accesso SVN:
+  * URL: https://tetris-vhdl.googlecode.com/svn/branches/gruppoN
+  * Username: mario.rossi@studio.unibo.it
+  * Password: password generata da google groups (http://code.google.com/hosting/settings). NON è la password dell'account google
 
-https://tetris-vhdl.googlecode.com/svn/
 
 = Details =
 
