@@ -1,8 +1,8 @@
 #Istruzioni generali
 
 = Istruzioni per accesso al progetto =
-L'accesso al progetto è consentito solo agli account google nome.cognome@studio.unibo.it. 
-Nota: ai fini della partecipazione al progetto è necessario solo linkare l'account google. NON è necessario avere un indirizzo GMail. Seguire le istruzioni sotto riportate sotto per effettuare l'associazione dell'account istituzionale (@studio.unibo.it) all'account google:
+L'accesso al progetto è consentito solo agli account google nome.cognome@studio.unibo.it. <br/>
+Ai fini della partecipazione al progetto <u>è necessario solo linkare l'account google</u>. NON è necessario avere un indirizzo GMail. Seguire le istruzioni sotto riportate sotto per effettuare l'associazione dell'account istituzionale (@studio.unibo.it) all'account google:
 
 == Per chi è già in possesso di un'indirizzo GMail ==
  # Assicurarsi di aver effettuato il login su GMail
@@ -15,8 +15,7 @@ Nota: ai fini della partecipazione al progetto è necessario solo linkare l'acco
 
 == Per chi NON è in possesso di un'indirizzo GMail ==
  # Recarsi all'indirizzo [https://www.google.com/accounts/NewAccount]
- # Inserire il proprio indirizzo istituzionale (nome.cognome@studio.unibo.it) e scegliere una password (non necessariamente la stessa dell'indirizzo di posta istituzionale) <br/>
-[http://tetris-vhdl.googlecode.com/svn/wiki/images/google_account_step_3.jpg]<br/>
+ # Inserire il proprio indirizzo istituzionale (nome.cognome@studio.unibo.it) e scegliere una password (non necessariamente la stessa dell'indirizzo di posta istituzionale) <br/> [http://tetris-vhdl.googlecode.com/svn/wiki/images/google_account_step_3.jpg] <br/>
  # Completare la registrazione confermando la mail inviata da Google
  # Andare all'indirizzo [http://code.google.com/hosting/settings] e prendere nota della password generata per l'accesso SVN
 
