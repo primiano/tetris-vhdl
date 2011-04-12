@@ -1,5 +1,18 @@
 #Istruzioni generali
 
+= Istruzioni per accesso al progetto =
+L'accesso al progetto è consentito solo agli account google nome.cognome@studio.unibo.it. 
+Procedere come segue per creare/modificare il proprio account google:
+
+== Per chi è già in possesso di un'indirizzo gmail ==
+ # Assicurarsi di aver effettuato il login su gMail
+ # Accedere alla pagina di gestione google account [http://www.google.com/accounts/?hl=it]
+ # Cliccare su Indirizzi email -> Modifica
+ # Aggiungere l'indirizzo e-mail istituzionale nella casella "Aggiungi un indirizzo email alternativo al tuo account" quindi salvare
+[images/google_account_step_2.jpg]
+ # Attendere l'email di conferma che google invierà all'account di ateneo
+ # Cliccare sul link di conferma 
+
 = Istruzioni per accesso SVN =
 
   * URL: https://tetris-vhdl.googlecode.com/svn/branches/gruppoN
