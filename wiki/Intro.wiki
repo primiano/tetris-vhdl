@@ -1,16 +1,7 @@
-#summary One-sentence summary of this page.
+#Istruzioni generali
 
-= Introduction =
+= Istruzioni per accesso SVN =
 
-Accesso SVN:
   * URL: https://tetris-vhdl.googlecode.com/svn/branches/gruppoN
   * Username: mario.rossi@studio.unibo.it
   * Password: password generata da google groups (http://code.google.com/hosting/settings). NON è la password dell'account google
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
