@@ -7,8 +7,8 @@ Procedere come segue per creare/modificare il proprio account google:
 == Per chi è già in possesso di un'indirizzo GMail ==
  # Assicurarsi di aver effettuato il login su GMail
  # Accedere alla pagina di gestione google account [http://www.google.com/accounts/?hl=it]
- # Cliccare su Indirizzi email -> Modifica [http://tetris-vhdl.googlecode.com/svn/wiki/images/google_account_step_1.jpg]
- # Aggiungere l'indirizzo e-mail istituzionale nella casella "Aggiungi un indirizzo email alternativo al tuo account" quindi salvare [http://tetris-vhdl.googlecode.com/svn/wiki/images/google_account_step_2.jpg]
+ # Cliccare su Indirizzi email -> Modifica {{{<br/>}}} [http://tetris-vhdl.googlecode.com/svn/wiki/images/google_account_step_1.jpg]
+ # Aggiungere l'indirizzo e-mail istituzionale nella casella "Aggiungi un indirizzo email alternativo al tuo account" quindi salvare {{{<br/>}}} [http://tetris-vhdl.googlecode.com/svn/wiki/images/google_account_step_2.jpg]
  # Attendere l'email di conferma che google invierà all'account di ateneo
  # Cliccare sul link di conferma 
 
