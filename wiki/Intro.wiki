@@ -2,15 +2,24 @@
 
 = Istruzioni per accesso al progetto =
 L'accesso al progetto è consentito solo agli account google nome.cognome@studio.unibo.it. 
-Procedere come segue per creare/modificare il proprio account google:
+Nota: ai fini della partecipazione al progetto è necessario solo linkare l'account google. NON è necessario avere un indirizzo GMail. Seguire le istruzioni sotto riportate sotto per effettuare l'associazione dell'account istituzionale (@studio.unibo.it) all'account google:
 
 == Per chi è già in possesso di un'indirizzo GMail ==
  # Assicurarsi di aver effettuato il login su GMail
  # Accedere alla pagina di gestione google account [http://www.google.com/accounts/?hl=it]
- # Cliccare su Indirizzi email -> Modifica <br/> [http://tetris-vhdl.googlecode.com/svn/wiki/images/google_account_step_1.jpg]
- # Aggiungere l'indirizzo e-mail istituzionale nella casella "Aggiungi un indirizzo email alternativo al tuo account" quindi salvare <br/> [http://tetris-vhdl.googlecode.com/svn/wiki/images/google_account_step_2.jpg]
+ # Cliccare su Indirizzi email -> Modifica <br/> [http://tetris-vhdl.googlecode.com/svn/wiki/images/google_account_step_1.jpg]<br/>
+ # Aggiungere l'indirizzo e-mail istituzionale nella casella "Aggiungi un indirizzo email alternativo al tuo account" quindi salvare <br/> [http://tetris-vhdl.googlecode.com/svn/wiki/images/google_account_step_2.jpg]<br/>
  # Attendere l'email di conferma che google invierà all'account di ateneo
  # Cliccare sul link di conferma 
+ # Andare all'indirizzo [http://code.google.com/hosting/settings] e prendere nota della password generata per l'accesso SVN
+
+== Per chi NON è in possesso di un'indirizzo GMail ==
+ # Recarsi all'indirizzo [https://www.google.com/accounts/NewAccount]
+ # Inserire il proprio indirizzo istituzionale (nome.cognome@studio.unibo.it) e scegliere una password (non necessariamente la stessa dell'indirizzo di posta istituzionale) <br/>
+[http://tetris-vhdl.googlecode.com/svn/wiki/images/google_account_step_3.jpg]<br/>
+ # Completare la registrazione confermando la mail inviata da Google
+ # Andare all'indirizzo [http://code.google.com/hosting/settings] e prendere nota della password generata per l'accesso SVN
+
 
 = Istruzioni per accesso SVN =
 
