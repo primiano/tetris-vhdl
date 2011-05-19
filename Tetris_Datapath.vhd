@@ -2,8 +2,8 @@ library ieee;
 use ieee.numeric_std.all;
 use ieee.std_logic_1164.all;
 use work.tetris_package.all;
-use work.vga_package.all;
 
+--TODO e' da fare il CAN_ROTATE
 
 entity Tetris_Datapath is
 	port
@@ -72,19 +72,26 @@ begin
 	
 	
 	NextFallingPiece : process(falling_piece, MOVE_DOWN, MOVE_LEFT, MOVE_RIGHT, ROTATE)
+		variable pivot : block_pos_type;
 	begin
 		next_falling_piece <= falling_piece;
+		pivot              := falling_piece.blocks(0);
 				
 		for i in 0 to BLOCKS_PER_PIECE-1 loop
 			if (MOVE_DOWN = '1') then
 				next_falling_piece.blocks(i).row <= falling_piece.blocks(i).row + 1;
-			end if;
-			
-			if (ROTATE = '1') then
-				--TODO rotation
+				
+			elsif (ROTATE = '1') then
+				if(i /= 0) then -- the pivot does not require any transformation
+					next_falling_piece.blocks(i).col <= 
+						pivot.col - (falling_piece.blocks(i).row - pivot.row);
 					
+					next_falling_piece.blocks(i).row <= 
+						pivot.row + (falling_piece.blocks(i).col - pivot.col);
+				end if;
 			elsif (MOVE_LEFT = '1') then
 				next_falling_piece.blocks(i).col <= falling_piece.blocks(i).col - 1;
+				
 			elsif (MOVE_RIGHT = '1') then
 				next_falling_piece.blocks(i).col <= falling_piece.blocks(i).col + 1;
 			end if;
@@ -191,13 +198,13 @@ begin
 		
 	
 	RowCheck : process(board, ROW_INDEX)
-		variable complete : std_logic;
 	begin
-		complete := '1';
+		ROW_IS_COMPLETE <= '1';
 		for i in 0 to (BOARD_COLUMNS-1) loop
-			complete := complete and board.cells(i,ROW_INDEX).filled;
+			if(board.cells(i,ROW_INDEX).filled = '0') then
+				ROW_IS_COMPLETE <= '0';
+			end if;
 		end loop;
-		ROW_IS_COMPLETE <= complete;
 	end process;
 	
 	
@@ -208,17 +215,17 @@ begin
 		CELL_CONTENT.shape  <= SHAPE_T; --indifferent
 		
 		selected_cell := board.cells(QUERY_CELL.col, QUERY_CELL.row);
-		if (selected_cell.filled = '1') then
-			CELL_CONTENT <= selected_cell;
-		else
-			for i in 0 to BLOCKS_PER_PIECE-1 loop
-				if(falling_piece.blocks(i) = QUERY_CELL) then
-					CELL_CONTENT.filled <= '1';
-					CELL_CONTENT.shape  <= falling_piece.shape;
-				end if;
-			end loop;
+		-- At first attempt output the selected board cell
+		CELL_CONTENT <= selected_cell;
 		
-		end if;
+		-- Override the output if one of the blocks of
+		-- the falling_piece occupy the selected cell
+		for i in 0 to BLOCKS_PER_PIECE-1 loop
+			if(falling_piece.blocks(i) = QUERY_CELL) then
+				CELL_CONTENT.filled <= '1';
+				CELL_CONTENT.shape  <= falling_piece.shape;
+			end if;
+		end loop;		
 	end process;
 	
 end architecture;
