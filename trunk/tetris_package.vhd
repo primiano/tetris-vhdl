@@ -43,8 +43,8 @@ package tetris_package is
 		shape  => SHAPE_T,
 		blocks =>
 		(
-			(col => 0, row => 0),
 			(col => 1, row => 0),
+			(col => 0, row => 0),
 			(col => 2, row => 0),
 			(col => 1, row => 1)
 		)
@@ -67,8 +67,8 @@ package tetris_package is
 		shape  => SHAPE_STICK,
 		blocks =>
 		(
-			(col => 0, row => 0),
 			(col => 0, row => 1),
+			(col => 0, row => 0),
 			(col => 0, row => 2),
 			(col => 0, row => 3)
 		)
@@ -79,8 +79,8 @@ package tetris_package is
 		shape  => SHAPE_L_L,
 		blocks =>
 		(
-			(col => 0, row => 0),
 			(col => 1, row => 0),
+			(col => 0, row => 0),
 			(col => 2, row => 0),
 			(col => 0, row => 1)
 		)
@@ -91,8 +91,8 @@ package tetris_package is
 		shape  => SHAPE_L_R,
 		blocks =>
 		(
-			(col => 0, row => 0),
 			(col => 1, row => 0),
+			(col => 0, row => 0),
 			(col => 2, row => 0),
 			(col => 2, row => 1)
 		)
@@ -104,9 +104,9 @@ package tetris_package is
 		blocks =>
 		(
 			(col => 1, row => 0),
+			(col => 1, row => 1),
 			(col => 2, row => 0),
-			(col => 0, row => 1),
-			(col => 1, row => 1)
+			(col => 0, row => 1)
 		)
 	);	
 	
@@ -115,9 +115,9 @@ package tetris_package is
 		shape  => SHAPE_DOG_R,
 		blocks =>
 		(
-			(col => 0, row => 0),
 			(col => 1, row => 0),
 			(col => 1, row => 1),
+			(col => 0, row => 0),
 			(col => 2, row => 1)
 		)
 	);	
