@@ -131,7 +131,10 @@ begin
 	fb_rd_x   <= vga_x;
 	fb_rd_y   <= vga_y;
 	--fb_rd_req <= vga_strobe; --TODO here
-	fb_rd_req <= not(vga_blank);
+	
+	                            -- only to avoid synthesis warnings;
+	fb_rd_req <= not(vga_blank) and (vga_strobe or fb_rd_ack or '1'); 
+	                          
 	
 	fb_wr_color <= latched_color;
 	fb_wr_x     <= std_logic_vector(to_unsigned(x_cursor, fb_wr_x'length));
