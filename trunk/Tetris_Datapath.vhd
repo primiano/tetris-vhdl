@@ -2,8 +2,8 @@ library ieee;
 use ieee.numeric_std.all;
 use ieee.std_logic_1164.all;
 use work.tetris_package.all;
+--use work.vga_package.all;
 
---TODO e' da fare il CAN_ROTATE
 
 entity Tetris_Datapath is
 	port
