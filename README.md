@@ -8,15 +8,14 @@ Teaching material
 
 Together with the VHDL of the project itself, I wrote down to the years some teaching material related to the project. Unfortunately, at the moment, the slides are available only in Italian.
 
- - [Introduction to FPGAs, design principles and quick VHDL summary](https://www.primianotucci.com/media/tetris_vhdl_slides_1_intro.pdf)
- - [Introduction to the DE1 FPGAs board and Altera development environment](https://www.primianotucci.com/media/tetris_vhdl_slides_2_altera_intro.pdf)
- - [Introduction to Tetris projects: requirements and architecture](https://www.primianotucci.com/media/tetris_vhdl_slides_3_tetris_intro.pdf)
- - [Tetris project: data-path architecture and RTL VHDL](https://www.primianotucci.com/media/tetris_vhdl_slides_4_datapath.pdf)
- - [Tetris project: user interface and VGA framebuffer](https://www.primianotucci.com/media/tetris_vhdl_slides_5_ui.pdf)
- - [Tetris project: control unit](https://www.primianotucci.com/media/tetris_vhdl_slides_6_control_unit.pdf)
+ - [Introduction to FPGAs, design principles and quick VHDL summary](https://github.com/primiano/tetris-vhdl/blob/docs-ita/etris_vhdl_slides_1_intro.pdf)
+ - [Introduction to the DE1 FPGAs board and Altera development environment](https://github.com/primiano/tetris-vhdl/blob/docs-ita/tetris_vhdl_slides_2_altera_intro.pdf)
+ - [Introduction to Tetris projects: requirements and architecture](https://github.com/primiano/tetris-vhdl/blob/docs-ita/tetris_vhdl_slides_3_tetris_intro.pdf)
+ - [Tetris project: data-path architecture and RTL VHDL](https://github.com/primiano/tetris-vhdl/blob/docs-ita/tetris_vhdl_slides_4_datapath.pdf)
+ - [Tetris project: user interface and VGA framebuffer](https://github.com/primiano/tetris-vhdl/blob/docs-ita/tetris_vhdl_slides_5_ui.pdf)
+ - [Tetris project: control unit](https://github.com/primiano/tetris-vhdl/blob/docs-ita/tetris_vhdl_slides_6_control_unit.pdf)
 
 
 License
 -------
 The applications are released under the terms of the [GNU GPL](http://www.gnu.org/copyleft/gpl.html)
-
